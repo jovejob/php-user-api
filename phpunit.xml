@@ -1,0 +1,10 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <php>
+        <ini name="memory_limit" value="-1"/>
+    </php>
+    <testsuites>
+        <testsuite name="User API Tests">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
