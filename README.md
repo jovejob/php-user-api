@@ -147,7 +147,7 @@ The system exposes the following endpoints:
   }
   ```
 
-  ### **5. Delete a User**
+### **5. Delete a User**
 
 **Endpoint:** `DELETE /api/users/{id}`
 
