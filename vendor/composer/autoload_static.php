@@ -26,6 +26,8 @@ class ComposerStaticInit9ee37000da1a7a5cbfaeca4bdc9e69d3
         ),
         'A' => 
         array (
+            'App\\Validators\\' => 15,
+            'App\\Services\\' => 13,
             'App\\' => 4,
         ),
     );
@@ -43,6 +45,14 @@ class ComposerStaticInit9ee37000da1a7a5cbfaeca4bdc9e69d3
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
+        'App\\Validators\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/Validators',
+        ),
+        'App\\Services\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Services',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -52,6 +62,8 @@ class ComposerStaticInit9ee37000da1a7a5cbfaeca4bdc9e69d3
     public static $classMap = array (
         'App\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/Controllers/UserController.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
+        'App\\Services\\UserService' => __DIR__ . '/../..' . '/Services/UserService.php',
+        'App\\Validators\\UserValidator' => __DIR__ . '/../..' . '/app/Validators/UserValidator.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',

@@ -1,4 +1,16 @@
 <phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Unit Tests">
+            <directory>tests/unit</directory>
+        </testsuite>
+        <testsuite name="Integration Tests">
+            <directory>tests/integration</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
+
+
+<!-- <phpunit bootstrap="vendor/autoload.php">
     <php>
         <ini name="memory_limit" value="-1"/>
     </php>
@@ -7,4 +19,4 @@
             <directory>tests</directory>
         </testsuite>
     </testsuites>
-</phpunit>
+</phpunit> -->

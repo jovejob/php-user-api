@@ -8,6 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Controllers\\UserController' => $baseDir . '/app/Controllers/UserController.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
+    'App\\Services\\UserService' => $baseDir . '/Services/UserService.php',
+    'App\\Validators\\UserValidator' => $baseDir . '/app/Validators/UserValidator.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'DeepCopy\\DeepCopy' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
     'DeepCopy\\Exception\\CloneException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',

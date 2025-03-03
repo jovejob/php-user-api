@@ -188,6 +188,18 @@ Run All Tests:
 composer test
 ```
 
+Run Integration Tests:
+
+```bash
+vendor/bin/phpunit --testsuite Integration Tests
+```
+
+Run Unit Tests:
+
+```bash
+vendor/bin/phpunit --testsuite Unit Tests
+```
+
 Run a Specific Test:
 
 ```bash
@@ -201,6 +213,11 @@ composer dump-autoload -o
 pkill php
 composer start
 ```
+
+## Next Steps
+
+Consider adding a database layer (SQLite, MySQL) for persistence instead of session storage.
+Add authentication (JWT, OAuth, etc.) for securing user endpoints.
 
 ## License
 
